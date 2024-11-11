@@ -1,0 +1,723 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+<title>Website</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="Shiplee franchise, logistics franchise, AI logistics partnership, business opportunities, franchise investment, Shiplee partner, logistics business" name="keywords">
+<meta content="Explore franchise opportunities with SHIPLEE, the AI-enabled logistics platform. Partner with us to bring cutting-edge shipping solutions to your region and grow your business with our proven model." name="description">
+
+
+ 
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="animate.min.css" rel="stylesheet">
+    <link href="owl.carousel.min.css" rel="stylesheet">
+    <link href="lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<style>
+        .container {
+            margin-top: 50px;
+        }
+        /* Popup modal styles */
+        .modal-dialog-centered {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100% - (.5rem * 2));
+        }
+    </style>
+<body>
+        <div class="container-xxl position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+
+                <a href="https://shiplee.ai/" class="navbar-brand p-0">
+                    <h1 class="m-0">SHIPLEE</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="https://shiplee.ai/" class="nav-item nav-link active">Home</a>
+                        <a href="about" class="nav-item nav-link">About</a>
+                        <a href="pricing" class="nav-item nav-link">Pricing</a>
+                        <a href="https://app.shiplee.ai/register" class="nav-item nav-link">SignUp</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="rto-predictor" class="dropdown-item">AI RTO Predictor</a>
+                                <a href="one-click" class="dropdown-item">One Click Checkout</a>
+                                <a href="b2b" class="dropdown-item">B2B Cargo</a>
+                                <a href="shiplee-connect" class="dropdown-item">Shiplee Connect++</a>
+                            </div>
+                        </div>
+                        <a href="contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="https://app.shiplee.ai" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
+                </div>
+            </nav>		</div>
+		
+		
+		    <div class="container-xxl bg-primary hero-header">
+
+<div class="container px-lg-5">
+    <div class="row g-4 align-items-center">
+        <div class="col-lg-6 text-center text-lg-start">
+                       <h1 class="text-white mb-4 animated slideInDown" style="font-size: 3rem; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                Join the Shiplee Franchise: Earn Rs.30,000 Per Month
+            </h1>
+            <p class="text-white pb-3 animated slideInDown">
+                🚀 Become a part of Shiplee and revolutionize logistics with our AI-enabled solutions.<br>
+                💼 Earn a steady income by partnering with a leading logistics platform.<br>
+                📈 Enjoy comprehensive support and extensive network benefits.<br>
+                🌟 Benefit from our innovative technology to enhance your business operations.<br>
+                🌐 Expand your reach with our vast network of courier partners.<br>
+                📊 Gain insights and analytics to improve your logistics efficiency.<br>
+                🤝 Join a community of like-minded entrepreneurs and receive ongoing training and support.
+            </p>
+        </div>
+        <div class="col-lg-6 text-center text-lg-start">
+            <div class="bg-white p-5 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold mb-4 text-gray-800">Start Your Journey with Shiplee</h2>
+                     
+
+                
+                <form method="POST" action="">
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Name*</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="contact" class="form-label">Contact No.*</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">+91</span>
+                            </div>
+                            <input type="text" class="form-control" id="contact" name="contact" placeholder="" required>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary w-100" type="submit">Join Now</button>
+                    <div class="text-center mt-4">
+                        <a href="https://franchise.shiplee.ai" class="text-decoration-none">Have an Account? Login Now</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+  // Show popup after 30 seconds
+setTimeout(function() {
+    var popupModal = new bootstrap.Modal(document.getElementById('popupModal'));
+    popupModal.show();
+}, 5000);
+</script>
+              </script>
+              
+              
+              <!-- Popup modal structure -->
+<div class="modal fade" id="popupModal" tabindex="-1" aria-labelledby="popupModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="popupModalLabel">Join the Shiplee Franchise</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="text-xl font-semibold mb-4 text-gray-800">Start Your Journey with Shiplee</h2>
+                <form method="POST" action="franchise.php" onsubmit="return validateForm()">
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Name*</label>
+                        <input type="text" class="form-control" id="popupName" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="contact" class="form-label">Contact No.*</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">+91</span>
+                            </div>
+                            <input type="text" class="form-control" id="popupContact" name="contact" placeholder="" required>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary w-100" type="submit">Join Now</button>
+                    <div class="text-center mt-4">
+                        <a href="https://franchise.shiplee.ai" class="text-decoration-none">Have an Account? Login Now</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+              
+   <div class="container-xxl py-5">
+    <div class="container py-5 px-lg-5">
+        <div class="row g-4">
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="feature-item bg-light rounded text-center p-4">
+                    <i class="fas fa-3x fa-user-tie text-primary mb-4"></i>
+                    <h5 class="mb-3">Become a Franchisee</h5>
+                    <p class="m-0">Join Shiplee logistics with our AI-enabled solutions. Enjoy steady income and comprehensive support.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="feature-item bg-light rounded text-center p-4">
+                    <i class="fas fa-3x fa-money-bill-wave text-primary mb-4"></i>
+                    <h5 class="mb-3">Earn Commissions</h5>
+                    <p class="m-0">Earn a competitive commission on each booking. The more you book, the more you earn!</p>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="feature-item bg-light rounded text-center p-4">
+                    <i class="fas fa-3x fa-headset text-primary mb-4"></i>
+                    <h5 class="mb-3">Dedicated Support</h5>
+                    <p class="m-0">Get access to 24/7 support and comprehensive training to help you succeed as a Shiplee franchisee.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+              
+              
+              
+
+   <div class="container-xxl py-5" style="background-color: #f8f9fa;">
+    <div class="text-center">
+        <h1>Special For Franchisees:</h1>
+        <h2>All You Need is Shiplee</h2>
+        <p class="mb-4">Join Shiplee and optimize your business with our seamless logistics solutions, comprehensive support, and extensive network.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                        <i class="bi bi-person-plus"></i>
+                    </div>
+                    <h5 class="card-title">Effortless Onboarding</h5>
+                    <p class="card-text">Activate all systems within 30 minutes from deal closure and start your journey smoothly.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                        <i class="bi bi-link-45deg"></i>
+                    </div>
+                    <h5 class="card-title">Deep Integrations</h5>
+                    <p class="card-text">Partner with major logistics and communications providers, ensuring seamless operations.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                        <i class="bi bi-clock"></i>
+                    </div>
+                    <h5 class="card-title">24/7 Support</h5>
+                    <p class="card-text">Benefit from our round-the-clock support to ensure your business runs smoothly at all times.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                        <i class="bi bi-bar-chart"></i>
+                    </div>
+                    <h5 class="card-title">99.5% Uptime</h5>
+                    <p class="card-text">Ensure zero downtime with our robust and scalable architecture, keeping your business running.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                    <h5 class="card-title">Customer Satisfaction</h5>
+                    <p class="card-text">Deliver exceptional experiences and delight your customers with our top-notch services.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                        <i class="bi bi-lightning"></i>
+                    </div>
+                    <h5 class="card-title">Rapid Deployment</h5>
+                    <p class="card-text">Get up and running quickly with our streamlined deployment process, minimizing your downtime.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="earnings-calculator-section">
+        <style>
+            .earnings-calculator-section {
+                background-color: #f8f9fa;
+                border: 2px solid #0e1d34;
+                border-radius: 1rem;
+                padding: 2rem;
+                margin-top: 2rem;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .search-input-group {
+                display: flex;
+                align-items: center;
+            }
+
+            .search-input-group .form-control {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                border: 2px solid #0e1d34;
+            }
+
+            .search-input-group .btn {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                border: 2px solid #0e1d34;
+                background-color: #0e1d34;
+                color: white;
+            }
+
+            .btn-purple:hover,
+            .btn-purple:focus,
+            .btn-purple:active {
+                background-color: #5a37b7;
+            }
+
+            #result-section {
+                display: none;
+                background-color: #ffffff;
+                border: 2px solid #0e1d34;
+                border-radius: 1rem;
+                padding: 2rem;
+                margin-top: 2rem;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .icon {
+                font-size: 3rem;
+                color: #0e1d34;
+                margin-bottom: 1rem;
+            }
+        </style>
+
+        <div class="text-center text-dark mb-4">
+            <div class="icon">
+                💸
+            </div>
+            <h2 class="text-dark" style="font-size: 2.5rem; font-weight: bold;">Earnings Calculator</h2>
+            <p style="font-size: 1.2rem;">Enter the total billing amount to calculate your earnings.</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="input-group search-input-group">
+                    <input type="number" class="form-control" id="billingAmount" placeholder="Enter total billing amount" aria-label="Enter total billing amount" aria-describedby="button-addon2">
+                    <button class="btn btn-purple" type="button" id="button-addon2" onclick="calculateEarnings()">Calculate</button>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-12">
+                <div class="result-section text-center" id="result-section">
+                    <h3 style="font-size: 2rem; font-weight: bold;">Estimated Earnings</h3>
+                    <p id="earnings-result" style="font-size: 1.5rem; color: #0e1d34;">This section will display the calculated earnings.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function calculateEarnings() {
+        var billingAmount = document.getElementById('billingAmount').value;
+        var commissionRate = 0.20; // Example commission rate (20%)
+
+        var earnings = billingAmount * commissionRate;
+
+        var resultSection = document.getElementById('result-section');
+        var earningsResult = document.getElementById('earnings-result');
+
+        earningsResult.innerHTML = "Your estimated earnings are Rs. " + earnings.toFixed(2);
+        resultSection.style.display = 'block';
+    }
+</script>
+
+
+
+    <div class="container-xxl py-5" style="background-color: #f8f9fa;">
+        <div class="courier-section">
+            <h2>From anywhere to everywhere</h2>
+            <p style="color: #6222CC;">Our multi-courier network spread across 29000+ pin codes lets you say yes to every order, even from remote areas.</p>
+            <a href="#">Explore integrations</a>
+        </div>
+        <div class="card-body text-center">
+            <div class="courier-logos">
+                <marquee behavior="scroll" direction="left" scrollamount="10" style="display: flex;">
+                    <img src="2.svg" alt="Courier Logo 1" class="courier-logo" style="width: 100px; margin: 15px;">
+                    <img src="3.svg" alt="Courier Logo 2" class="courier-logo" style="width: 100px; margin: 15px;">
+                    <img src="logo-dtdc.png" alt="Courier Logo 3" class="courier-logo" style="width: 100px; margin: 15px;">
+                    <img src="l2.webp" alt="Courier Logo 4" class="courier-logo" style="width: 100px; margin: 15px;">
+                    <img src="l7.webp" alt="Courier Logo 3" class="courier-logo" style="width: 100px; margin: 15px;">
+                    <img src="x56.png" alt="Courier Logo 4" class="courier-logo" style="width: 100px; margin: 15px;">
+                    <img src="l10.webp" alt="Courier Logo 3" class="courier-logo" style="width: 100px; margin: 15px;">
+                    <img src="India_Post_Logo.png" alt="Courier Logo 4" class="courier-logo" style="width: 100px; margin: 15px;">
+                    <img src="345.png" alt="Courier Logo 3" class="courier-logo" style="width: 100px; margin: 15px;">
+                    <img src="33.png" alt="Courier Logo 3" class="courier-logo" style="width: 100px; margin: 15px;">
+                    <img src="89.png" alt="Courier Logo 3" class="courier-logo" style="width: 100px; margin: 1px;">
+                </marquee>
+            </div>
+        </div>
+
+       <div class="business-benefits">
+    <div class="container">
+        <h2>Shiplee Franchisee Benefits</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="benefit-item">
+                    <i class="fas fa-user-tie benefit-icon"></i>
+                    <h5 class="benefit-title">Franchise Support</h5>
+                    <p class="benefit-description">Receive comprehensive support and training to help you succeed as a Shiplee franchisee.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="benefit-item">
+                    <i class="fas fa-hand-holding-usd benefit-icon"></i>
+                    <h5 class="benefit-title">Attractive Commission</h5>
+                    <p class="benefit-description">Earn competitive commissions on every booking made through your franchise.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="benefit-item">
+                    <i class="fas fa-bullhorn benefit-icon"></i>
+                    <h5 class="benefit-title">Marketing Assistance</h5>
+                    <p class="benefit-description">Benefit from national and regional marketing campaigns to drive business growth.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="benefit-item">
+                    <i class="fas fa-network-wired benefit-icon"></i>
+                    <h5 class="benefit-title">Extensive Network</h5>
+                    <p class="benefit-description">Leverage Shiplee's vast network to offer comprehensive logistics solutions.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="col-md-6 col-lg-3">
+                <div class="benefit-item">
+                    <i class="fas fa-headset benefit-icon"></i>
+                    <h5 class="benefit-title">24/7 Support</h5>
+                    <p class="benefit-description">Access round-the-clock support to resolve any issues and ensure smooth operations.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="benefit-item">
+                    <i class="fas fa-shipping-fast benefit-icon"></i>
+                    <h5 class="benefit-title">Swift Shipping</h5>
+                    <p class="benefit-description">Offer your customers the best first-mile and last-mile experience with quick pickup and delivery.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="benefit-item">
+                    <i class="fas fa-chart-line benefit-icon"></i>
+                    <h5 class="benefit-title">Growth Opportunities</h5>
+                    <p class="benefit-description">Expand your business with Shiplee's proven model and continuous growth opportunities.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="benefit-item">
+                    <i class="fas fa-users benefit-icon"></i>
+                    <h5 class="benefit-title">Customer Satisfaction</h5>
+                    <p class="benefit-description">Deliver exceptional customer experiences and build long-term loyalty through reliable services.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div class="container-xxl py-5">
+           <div class="container py-5 px-lg-5">
+    <div class="row g-5 align-items-center">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <h2 class="section-title text-secondary">About Shiplee<span></span></h2>
+            <h1 class="mb-5">#1 Logistics Solution.</h1>
+            <p class="mb-4">Shiplee is your trusted partner in logistics, offering seamless solutions tailored to your needs. </p>
+            <p class="mb-4">Join Shiplee as a franchisee and tap into the vast opportunities in the logistics industry.</p>
+            <div class="benefit mb-4">
+                <div class="d-flex justify-content-between">
+                    <p class="mb-2">Comprehensive Training</p>
+                    <p class="mb-2">100%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="benefit mb-4">
+                <div class="d-flex justify-content-between">
+                    <p class="mb-2">Marketing Support</p>
+                    <p class="mb-2">100%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="benefit mb-4">
+                <div class="d-flex justify-content-between">
+                    <p class="mb-2">High Earning Potential</p>
+                    <p class="mb-2">100%</p>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Read More</a>
+        </div>
+        <div class="col-lg-6">
+            <video autoplay muted playsinline style="width: 100%;">
+                <source src="intro.mp4" type="video/mp4">
+            </video>
+            <style>
+                @media only screen and (max-width: 600px) {
+                    video {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            </style>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+      <div class="container-xxl py-5">
+    <div class="container py-5 px-lg-5">
+        <div class="wow fadeInUp" data-wow-delay="0.1s">
+            <p class="section-title text-secondary justify-content-center"><span></span>FRANCHISEE BENEFITS<span></span></p>
+            <h1 class="text-center mb-5">Why Partner with Shiplee?</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden bg-light text-center p-4">
+                    <div class="h1 mb-3">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h5 class="mb-3">High Profit Margins</h5>
+                    <p class="m-0">Enjoy substantial profit margins on each booking you make with our competitive pricing structure.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="rounded overflow-hidden bg-light text-center p-4">
+                    <div class="h1 mb-3">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h5 class="mb-3">Full Support</h5>
+                    <p class="m-0">Receive comprehensive support from our dedicated team, ensuring your business runs smoothly.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="rounded overflow-hidden bg-light text-center p-4">
+                    <div class="h1 mb-3">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h5 class="mb-3">Extensive Network</h5>
+                    <p class="m-0">Leverage our extensive courier network to offer top-notch delivery services across the country.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="rounded overflow-hidden bg-light text-center p-4">
+                    <div class="h1 mb-3">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h5 class="mb-3">Easy Setup</h5>
+                    <p class="m-0">Set up your franchise quickly with minimal hassle, thanks to our streamlined onboarding process.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="rounded overflow-hidden bg-light text-center p-4">
+                    <div class="h1 mb-3">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h5 class="mb-3">Training Programs</h5>
+                    <p class="m-0">Participate in our training programs to stay updated on the latest in logistics and customer service.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="rounded overflow-hidden bg-light text-center p-4">
+                    <div class="h1 mb-3">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h5 class="mb-3">Customer Support</h5>
+                    <p class="m-0">Provide your customers with exceptional support, backed by our 24/7 customer service team.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1>What Our Franchisees Say</h1>
+            <p>Hear from our successful franchise partners.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <p class="card-text">"Joining Shiplee was the best decision for my business. The support and training provided are top-notch, and my earnings have significantly increased."</p>
+                        <h5 class="card-title">- Rajesh K.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <p class="card-text">"The seamless integration and extensive network of Shiplee have made it easy for me to offer reliable logistics solutions to my customers."</p>
+                        <h5 class="card-title">- Priya M.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <p class="card-text">"With Shiplee's comprehensive support and training programs, I was able to set up my franchise quickly and start earning from day one."</p>
+                        <h5 class="card-title">- Anil S.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div></div>
+        <!-- Footer Start -->
+         <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Address<span></span></p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>SHIPLEE ,B-201 G/F L/S DELHI</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+918042303632</p>
+                        <p><i class="fa fa-envelope me-3"></i>hello@shiplee.in</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
+                        <a class="btn btn-link" href="about">About Us</a>
+                        <a class="btn btn-link" href="contact">Contact Us</a>
+                        <a class="btn btn-link" href="privacy">Privacy Policy</a>
+                        <a class="btn btn-link" href="tandc">Terms & Condition</a>
+                        <a class="btn btn-link" href="">Career</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Gallery<span></span></p>
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <img class="img-fluid" src="portfolio-1.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="portfolio-2.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="portfolio-3.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="portfolio-4.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="portfolio-5.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="portfolio-6.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
+                        <p>Put Your Email To Get Update:</p>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Astha Bajpai</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="https://shiplee.ai">Home</a>
+                                <a href="refund">Refund & Cancellation Policy</a>
+                                <a href="cookies">Cookies</a>
+                                <a href="faq">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        <!-- Footer End -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/js/all.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+</html>
